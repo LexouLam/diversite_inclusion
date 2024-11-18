@@ -35,12 +35,13 @@ Données sélectionnées :
 |N° Mission|N° Tâche|Statut|Description tâche|
 |----------|--------|------|-----------|
 |-|1|Done|Définition de la problématique et sélection cas d'étude|
-|-|2|En cours|Mise en place du projet / travail en collaboration|
+|-|2|Done|Mise en place du projet / travail en collaboration|
+|-|3|A faire|Définition des tâches par mission|
 |-|-|-|-|
 |1|1|En cours|Téléchargement et exploration sommaire des données|
 |-|-|-|-|
 |2|1|A faire|Téléchargement et exploration sommaire des données EDF|
-|2|2|A faire|Etablissement de l'environnement de travail|
+|2|2|Done|Etablissement de l'environnement de travail|
 |2|3|A faire|Choix des librairies / outils et premiers tests|
 |2|4|A faire|Téléchargement et exploration sommaire des données d'autres entreprises|
 |-|-|-|-|
