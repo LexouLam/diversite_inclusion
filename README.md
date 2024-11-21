@@ -35,7 +35,7 @@ Données sélectionnées :
 
 Données supplémentaires : 
 
-- Données d'EDF et d'autres entreprises, données produites au cours du projet https://drive.google.com/drive/folders/1UzNH47lA8ApVKCR_-MTaHS73KFRbpN1R?usp=drive_link
+- Données d'autres entreprises (sources donnée dans le notebook **notebooks/repertoires_entreprises_pipeline_complet.ipynb**)
 
 ### TODO
 
@@ -95,11 +95,6 @@ https://public.tableau.com/app/profile/maria.thiam/viz/employs_par_contrat/Dashb
 
 https://public.tableau.com/app/profile/maria.thiam/viz/pourcentagehandicapsentrepriseann/comparaisonEDFvsautres
 
-## Lien vers les données 
-
-https://drive.google.com/drive/folders/1UzNH47lA8ApVKCR_-MTaHS73KFRbpN1R?usp=drive_link
-
-Le dossier "data" doit être placé à la racine du projet, au même niveau que le dossier "notebooks".
 
 ## Environnement de travail 
 
