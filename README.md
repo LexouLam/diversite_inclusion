@@ -81,7 +81,7 @@ Données supplémentaires :
 
 ![alt text](organigramme_projet_diversite_inclusion.png)
 
-## Verrous, perspectives 
+## Conclusions, verrous, perspectives des missions
 
 Donnés dans les notebooks associés aux missions.
 
