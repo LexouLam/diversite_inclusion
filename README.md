@@ -1,6 +1,6 @@
 # Projet Open Data University (ODU) 
 
-Objectif : répondre à un défi Open Data University  (https://www.opendatauniversity.org/)
+https://www.opendatauniversity.org/
 
 
 ## Diversité et inclusion en entreprise 
@@ -15,13 +15,10 @@ Problématiques générales :
 
 Ces problématiques sont appliquées au cas des salariés en situation de handicap.
 
+Missions prises en charge :
 
-
-Mission 1 - Réalisation 1 : **Analyse de données - focus sur les salariés en situation de handicap**  
-"Un tableau de bord interactif qui agrège et rend compte des données issues des bilans sociaux d’EDF SA à travers plusieurs datavisualisations. Quelques pistes : pourcentage d’homme et de femme à temps partiel, évolution du nombre de femmes cadres, etc… "
-
-Mission 2 - Réalisation 2 : **Répertoire des bilans sociaux de grandes entreprises - focus sur les salariés en situation de handicap**  
-"Trouver et extraire automatiquement des bilans sociaux d’entreprises similaires à EDF SA pour les afficher dans un répertoire unique publié en ligne avec les métadonnées clés associées (nom de l’entreprise, année, numéro SIRET, etc…)."  
+- Mission 1 (Réalisation 1 du défi) : **Analyse de données - focus sur les salariés en situation de handicap**  
+- Mission 2 (Réalisation 2 du défi) : **Répertoire des bilans sociaux de grandes entreprises - focus sur les salariés en situation de handicap**  
 
 ### Données 
 
@@ -30,29 +27,71 @@ Données sélectionnées :
 - Données générales des effectifs d'EDF https://defis.data.gouv.fr/datasets/66e380b07889d3b365709382
 - Données des salariés en situation de handicap d'EDF https://defis.data.gouv.fr/datasets/66e380b07889d3b365709384
 
+Données supplémentaires : 
+
+- Données d'EDF et d'autres entreprises, données produites au cours du projet https://drive.google.com/drive/folders/1UzNH47lA8ApVKCR_-MTaHS73KFRbpN1R?usp=drive_link
+
 ### TODO
 
 |N° Mission|N° Tâche|Statut|Description tâche|
 |----------|--------|------|-----------|
 |-|1|Done|Définition de la problématique et sélection cas d'étude|
-|-|2|En cours|Mise en place du projet / travail en collaboration|
+|-|2|Done|Mise en place du projet / travail en collaboration|
 |-|-|-|-|
-|1|1|En cours|Téléchargement et exploration sommaire des données|
+|1|1|Done|Téléchargement et exploration simple des données|
 |-|-|-|-|
-|2|1|A faire|Téléchargement et exploration sommaire des données EDF|
-|2|2|A faire|Etablissement de l'environnement de travail|
-|2|3|A faire|Choix des librairies / outils et premiers tests|
-|2|4|A faire|Téléchargement et exploration sommaire des données d'autres entreprises|
+|2|1|Done                   |Téléchargement et exploration sommaire des données EDF|
+|2|2|Done                   |Etablissement de l'environnement de travail|
+|2|3|Done                   |Choix des librairies / outils et premiers tests|
+|2|3.1|Done                 |Test de docling pour extraire les tableaux de données des pdf|
+|2|3.2|Done                 |Test de LangChain pour extraire les informations des csv|
+|2|4|Done                   |Téléchargement et exploration sommaire des données d'autres entreprises|
+|2|4.1|Done                 |Liste d'autres entreprises et liens vers leurs données|
+|2|4.2|Done                 |Téléchargement des données (fichiers pdf/csv)|
+|2|5|A faire                |Automatisation du téléchargement des données|
+|2|6|Done                   |Evaluer la possibilité d'utiliser un outils d'extraction depuis pdf pour extraire les données|
+|2|6.1|Done                 |Extraction des tableaux des fichiers pdf en csv|
+|2|7|Done                   |Evaluer la possibilité d'utiliser un LLM pour extraire les données|
+|2|7.1|Done                 |Installation et set-up de LangChain et d'un premier modèle|
+|2|7.2|Done                 |Test du modèle de Ollama Qwen2.5|
+|2|7.3|Done                 |Modification du prompt pour obtenir les informations recherchées depuis les fichiers csv|
+|2|7.4|Done                 |Evaluation du prompt pour tous les fichiers d'une même entreprise - Exemple d'Auchan|
+|2|7.5|Done                 |Evaluation du prompt pour tous les fichiers de toutes les entreprises|
+|2|7.6|Done                 |Optimisation du prompt pour tous les fichiers de toutes les entreprises|
+|2|8|Done                   |Nettoyage des données de sortie du prompt|
+|2|8.1|Done                 |Obtention d'un dataframe avec nombre, % et années|
+|2|8.2|Done                 |Transformation du dataframe (type, valeurs, disposition) pour correspondre aux données d'EDF|
+|2|9|Done                |Implémenter le pipeline entier des fichiers pdf aux df finaux puis csv avec données compilées|
 |-|-|-|-|
 
-## Environnement de travail 
+### Organigramme du projet 
 
-### UV
+![alt text](organigramme_projet_diversite_inclusion.png)
+
+## Liens vers les Dashboards
+
+### Inclusion des salariés en situation de handicap - cas d'EDF 
+
+https://public.tableau.com/app/profile/maria.thiam/viz/employs_par_contrat/DashboardcompratifEDF
+
+### Inclusion des salariés en situation de handicap - comparaison d'EDF et d'autres entreprises françaises
+
+https://public.tableau.com/app/profile/maria.thiam/viz/pourcentagehandicapsentrepriseann/comparaisonEDFvsautres
+
+## Lien vers les données 
+
+https://drive.google.com/drive/folders/1UzNH47lA8ApVKCR_-MTaHS73KFRbpN1R?usp=drive_link
+
+Le dossier "data" doit être placé à la racine du projet, au même niveau que le dossier "notebooks".
+
+## Environnements de travail 
+
+### Extraction des données d'autres entreprise
+
+Pré-recquis : installation d'uv (https://github.com/astral-sh/uv) et ollama (https://ollama.com/).
 
 >git clone git@github.com:LexouLam/diversite_inclusion.git  
 >cd diversite_inclusion  
 >uv venv --python 3.12  
 >uv sync  
-
-### conda ? 
 
