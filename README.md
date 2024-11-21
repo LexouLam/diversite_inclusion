@@ -22,8 +22,8 @@ Missions prises en charge :
 
 Notebooks associés : 
 
-- Mission 1 : notebooks/datEFD.ipynb
-- Mission 1 : notebooks/preprocess_data_dashboard1.ipynb
+- Mission 1 - données internes EDF : notebooks/preprocess_data_dashboard_EDF.ipynb
+- Mission 1 - données entreprises françaises : notebooks/preprocess_data_dashboard_toutes_entreprises.ipynb
 - Mission 2 : notebooks/repertoires_entreprises_pipeline_complet.ipynb
 
 ### Données 
