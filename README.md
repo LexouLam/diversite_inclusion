@@ -97,9 +97,7 @@ https://drive.google.com/drive/folders/1UzNH47lA8ApVKCR_-MTaHS73KFRbpN1R?usp=dri
 
 Le dossier "data" doit être placé à la racine du projet, au même niveau que le dossier "notebooks".
 
-## Environnements de travail 
-
-### Extraction des données d'autres entreprise
+## Environnement de travail 
 
 Pré-recquis : installation d'uv (https://github.com/astral-sh/uv) et ollama (https://ollama.com/).
 
