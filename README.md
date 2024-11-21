@@ -22,9 +22,9 @@ Missions prises en charge :
 
 Notebooks associés : 
 
-- Mission 1 - données internes EDF : notebooks/preprocess_data_dashboard_EDF.ipynb
-- Mission 1 - données entreprises françaises : notebooks/preprocess_data_dashboard_toutes_entreprises.ipynb
-- Mission 2 : notebooks/repertoires_entreprises_pipeline_complet.ipynb
+- Mission 1 - données internes EDF : **notebooks/preprocess_data_dashboard_EDF.ipynb**
+- Mission 1 - données entreprises françaises : **notebooks/preprocess_data_dashboard_toutes_entreprises.ipynb**
+- Mission 2 : **notebooks/repertoires_entreprises_pipeline_complet.ipynb**
 
 ### Données 
 
@@ -80,6 +80,10 @@ Données supplémentaires :
 ### Organigramme du projet 
 
 ![alt text](organigramme_projet_diversite_inclusion.png)
+
+## Verrous, perspectives 
+
+Donnés dans les notebooks associés aux missions.
 
 ## Liens vers les Dashboards
 
