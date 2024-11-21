@@ -20,6 +20,12 @@ Missions prises en charge :
 - Mission 1 (Réalisation 1 du défi) : **Analyse de données - focus sur les salariés en situation de handicap**  
 - Mission 2 (Réalisation 2 du défi) : **Répertoire des bilans sociaux de grandes entreprises - focus sur les salariés en situation de handicap**  
 
+Notebooks associés : 
+
+- Mission 1 : notebooks/datEFD.ipynb
+- Mission 1 : notebooks/preprocess_data_dashboard1.ipynb
+- Mission 2 : notebooks/repertoires_entreprises_pipeline_complet.ipynb
+
 ### Données 
 
 Données sélectionnées :  
@@ -39,6 +45,13 @@ Données supplémentaires :
 |-|2|Done|Mise en place du projet / travail en collaboration|
 |-|-|-|-|
 |1|1|Done|Téléchargement et exploration simple des données|
+|1|2|Done|Exploration des données des effectifs totaux|
+|1|3|Done|Exploration des données des effectifs des salariés en situation de handicap|
+|1|4|Done|Sélection et test de visualisations en accord avec la problématique|
+|1|5|Done|Transformation des données pour les visualisations|
+|1|6|Done|Aggrégation avec les données de toutes les entreprises|
+|1|7|Done|Extraction des données pour l'implémentation Tableau|
+|1|8|Done|Visualisation Tableau et construction des Dashboard|
 |-|-|-|-|
 |2|1|Done                   |Téléchargement et exploration sommaire des données EDF|
 |2|2|Done                   |Etablissement de l'environnement de travail|
